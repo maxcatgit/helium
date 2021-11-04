@@ -1,5 +1,7 @@
 # helium
 
+https://github.com/maco2035/DiyHeliumHotspots/blob/master/RAK2287/Raspberry%20Pi%204B/Guide.md
+
 https://danielandrade.net/2020/08/23/running-a-helium-miner-on-digitalocean/
 
 https://danielandrade.net/2020/09/28/adding-a-diy-hotspot-to-the-helium-blockchain/
@@ -26,4 +28,5 @@ helium-wallet --format json onboard ADD_GW_MINER_OUTPUT --onboarding CODE --comm
 docker exec miner miner txn assert_location owner=YOURWALLET location=LAT,LON --payer 14fzfjFcHpDR1rTH8BNPvSi5dKBbgxaDnmsVPbCjuq9ENjpZbxh
 
 helium-wallet --format json onboard ASSERT_GW_MINER_OUTPUT --onboarding CODE --commit
+
 --------------

@@ -1,6 +1,7 @@
 # helium
 
 https://danielandrade.net/2020/08/23/running-a-helium-miner-on-digitalocean/
+
 https://danielandrade.net/2020/09/28/adding-a-diy-hotspot-to-the-helium-blockchain/
 
 Helium RAK Miner review - https://www.disk91.com/2021/technology/lora/helium-rak-miner-review/

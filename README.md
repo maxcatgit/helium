@@ -14,3 +14,14 @@ RaspberyPI Bluethooth - https://pimylifeup.com/raspberry-pi-ibeacon/
 
 Hotspot WiFi Configuration - https://docs.helium.com/mine-hnt/full-hotspots/become-a-maker/hotspot-wifi-configuration/
 
+------------
+We had to get an alpha code that is placed into your assertion commands below. They were added using the HostOS terminal on the Balena Cloud.
+
+docker exec miner miner txn add_gateway owner=YOURWALLET --payer 14fzfjFcHpDR1rTH8BNPvSi5dKBbgxaDnmsVPbCjuq9ENjpZbxh
+
+helium-wallet --format json onboard ADD_GW_MINER_OUTPUT --onboarding CODE --commit
+
+docker exec miner miner txn assert_location owner=YOURWALLET location=LAT,LON --payer 14fzfjFcHpDR1rTH8BNPvSi5dKBbgxaDnmsVPbCjuq9ENjpZbxh
+
+helium-wallet --format json onboard ASSERT_GW_MINER_OUTPUT --onboarding CODE --commit
+--------------

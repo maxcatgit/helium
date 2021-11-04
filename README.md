@@ -1,6 +1,6 @@
 # helium
 
-https://github.com/maco2035/DiyHeliumHotspots/blob/master/RAK2287/Raspberry%20Pi%204B/Guide.md
+* https://github.com/maco2035/DiyHeliumHotspots/blob/master/RAK2287/Raspberry%20Pi%204B/Guide.md
 
 https://danielandrade.net/2020/08/23/running-a-helium-miner-on-digitalocean/
 
